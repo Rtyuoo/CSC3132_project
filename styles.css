@@ -1,0 +1,179 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #1d1d1d; /* Darker shade for header */
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 2.5rem;
+    color: #e5e5e5; /* Light grey color for logo */
+    font-weight: 700;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #b0b0b0; /* Lighter grey for links */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7f50; /* Coral color on hover */
+  }
+  
+  .cart-icon,
+  .search-icon {
+    font-size: 1rem;
+  }
+  
+  .cta-button a {
+    background-color: #ff7f50; /* Coral color for CTA */
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button a:hover {
+    background-color: #ff5722; /* Darker coral color on hover */
+  }
+  
+  /* Mobile Styling */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .cta-button a {
+      padding: 10px 20px;
+    }
+  }
+  
+  .hero {
+    position: relative;
+    background-image: url('https://t4.ftcdn.net/jpg/05/65/75/59/360_F_565755935_GLp4UQXwqgB4wYBGorgOVWm6NqU1taTE.jpg'); /* Placeholder image, replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text contrast */
+    padding: 40px 60px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff; /* White text color for the heading */
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #b0b0b0; /* Light grey for the subheadline */
+  }
+  
+  .cta-button {
+    background-color: #ff6347; /* Coral color for the CTA button */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4500; /* Darker coral color on hover */
+  }
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem; /* Adjust the font size for mobile */
+    }
+  
+    .hero p {
+      font-size: 1rem; /* Smaller subheadline on mobile */
+    }
+  
+    .cta-button {
+      padding: 12px 25px; /* Adjust button padding for mobile */
+    }
+  }
+  #user-menu {
+    position: relative;
+  }
+  
+  #user-menu .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+  }
+  
+  #user-menu:hover .dropdown {
+    display: block;
+  }
+  
+  #user-email {
+    color: #b0b0b0; /* Light grey */
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  
