@@ -57,6 +57,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <a href="#shop" class="cta-button">Shop Now</a>
     </div>
   </section>
+  <!-- Additional Content -->
+  <section class="features">
+    <div class="feature-item">
+      <i class='bx bx-leaf'></i>
+      <h2>Sustainable Materials</h2>
+      <p>Eco-friendly furniture made with sustainable resources.</p>
+    </div>
+    <div class="feature-item">
+      <i class='bx bx-smile'></i>
+      <h2>Comfort First</h2>
+      <p>Designed to bring comfort and style to your living space.</p>
+    </div>
+    <div class="feature-item">
+      <i class='bx bx-star'></i>
+      <h2>Top Quality</h2>
+      <p>Crafted with care and precision for long-lasting durability.</p>
+    </div>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
