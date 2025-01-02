@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f0f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Container */
+  .container {
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6a0dad; /* Purple */
+    color: white;
+  }
+  
+  .button-container button {
+    flex: 1;
+    padding: 15px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button.active {
+    background-color: #8a2be2; /* Darker purple */
+  }
+  
+  .button-container button:hover {
+    background-color: #8a2be2;
+  }
+  
+  /* Form Wrapper */
+  .form-wrapper {
+    position: relative;
+    width: 200%;
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Form Styles */
+  .form {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f0f9; /* Light purple background */
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    color: #6a0dad;
+  }
+  
+  .form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form input:focus {
+    border-color: #6a0dad;
+  }
+  
+  .form button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #8a2be2;
+  }
+  
+  /* Active Forms */
+  .form-wrapper .form {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .form-wrapper .form.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
