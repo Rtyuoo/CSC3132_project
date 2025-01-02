@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "127.0.0.1:3306";
 $username = "root";
-$password = "";
+$password = "mariadb";
 $dbname = "furniture_shop";
 
 // Create connection
