@@ -129,12 +129,12 @@
   .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #b0b0b0; /* Light grey for the subheadline */
+    color: rgb(23, 118, 134); /* Light grey for the subheadline */
   }
   
   .cta-button {
     background-color: #5a053e; /* Coral color for the CTA button */
-    color: #fff;
+    color: #585050;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 1.2rem;
