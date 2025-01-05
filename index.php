@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <li><a href="login/logout.php" id="logout-link">Logout</a></li>
             </ul>
           </li>
-          <li><a href="about/index.php">About Us</a></li>
+          <li><a href="about_us/index.php">About Us</a></li>
           
         </ul>
       </nav>
